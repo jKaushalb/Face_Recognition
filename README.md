@@ -14,3 +14,4 @@ Opencv
 opencv contribution version
 numpy
 os
+haarcascade_frontalface_default.xml 
