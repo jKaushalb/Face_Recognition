@@ -73,7 +73,7 @@ print()
 while p>0:
     try :
         
-        c=int(input(" To register new user enter 1\n To predict enter 2\n To test an image press 3 "))
+        c=int(input(" To register new user enter 1\n To predict enter 2\n To test an image press 3\n "))
         if c==1:
             uname=input("enter your name in format name.number ")
             path = "./"+uname+"/"
@@ -155,7 +155,7 @@ while p>0:
                     ck=10
                     ck+=10
                     if str(idj) in dic.keys():
-                        if conf<55:
+                        if conf<80:
                             name=dic[str(idj)]
                             
                         else :
@@ -168,11 +168,11 @@ while p>0:
             
     except Exception as e:
         pass
-    print(" To continue press 1\n To stop press 0")
+    print(" To continue press 1\n To stop press 0\n")
     try:
        p=int(input())
     except Exception as e:
-        print("enter correct number")
+        print("enter correct number\n")
     
 print("\t\t\t\tThank YOU!!!\t\t\t")
         
